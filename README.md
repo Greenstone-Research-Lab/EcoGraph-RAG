@@ -30,9 +30,9 @@ When the pipeline is executed, it automatically generates a visual representatio
 ```bash
 git clone [https://github.com/Greenstone-Research-Lab/EcoGraph-RAG.git](https://github.com/Greenstone-Research-Lab/EcoGraph-RAG.git)
 cd EcoGraph-RAG
-
+```
 
 ### 2. Configure Environment Variables
 Create a `.env` file in the root directory and add your OpenAI API key:
 ```env
-OPENAI_API_KEY=sk-your-api-key-here
+OPENAI_API_KEY=sk-your-api-key-here```
