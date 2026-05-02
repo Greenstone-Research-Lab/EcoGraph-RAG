@@ -32,7 +32,30 @@ git clone [https://github.com/Greenstone-Research-Lab/EcoGraph-RAG.git](https://
 cd EcoGraph-RAG
 ```
 
-### 2. Configure Environment Variables
+### 2. Set Up the Virtual Environment
+
+```bash
+python -m venv venv
+```
+#### On Windows
+```bash
+.\venv\Scripts\activate
+```
+#### On Mac/Linux
+```bash
+source venv/bin/activate
+```
+
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+### 4. Configure Environment Variables
 Create a `.env` file in the root directory and add your OpenAI API key:
 ```env
-OPENAI_API_KEY=sk-your-api-key-here```
+OPENAI_API_KEY=sk-your-api-key-here
+```
