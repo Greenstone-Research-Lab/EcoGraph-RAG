@@ -1,0 +1,19 @@
+﻿# Güvenlik ve Ortam Dosyaları
+.env
+venv/
+env/
+ENV/
+
+# Python Önbellek Dosyaları
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Visual Studio ve İşletim Sistemi Kalıntıları
+.vs/
+.vscode/
+*.pyproj
+*.pyproj.user
+*.sln
+.DS_Store
